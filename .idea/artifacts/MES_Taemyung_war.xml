@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MES_Taemyung:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MES_Taemyung</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="MES_Taemyung-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="MES_Taemyung:war exploded" />
+    </root>
+  </artifact>
+</component>
